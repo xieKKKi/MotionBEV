@@ -1,4 +1,4 @@
-# MotionBEV: Attention-Aware Online LiDAR Moving Object segmentation with Birds' eye view based Appearance and Motion Features
+# MotionBEV: Attention-Aware Online LiDAR Moving Object segmentation with Birds' Eye View based Appearance and Motion Features
 [[**Paper | ArXiv**]](https://arxiv.org)
 [[**Video | YouTube**]](https://youtu.be/kOc7gJ72J-g)
 [[**Video | Bilibili**]](https://www.bilibili.com/video/BV1Fs4y1G7V2)
@@ -6,7 +6,7 @@
 PyTorch implementation for online LiDAR moving object segmentation framework **MotionBEV**.
 
 <pre>
-MotionBEV: Attention-Aware Online LiDAR Moving Object segmentation with Birds' eye view based Appearance and Motion Features.
+MotionBEV: Attention-Aware Online LiDAR Moving Object segmentation with Birds' Eye View based Appearance and Motion Features.
 Bo Zhou* ,Jiapeng Xie* , Yan Pan, Jiajie Wu, and Chuanzhao Lu.
 </pre>
 
@@ -23,7 +23,7 @@ MotionBEV is a fast and accurate framework for LiDAR moving object segmentation.
         text-align: center;">Overview of MotionBEV.</span>
 </p>
 
-We achieve leading performance on [SemanticKITTI-MOS benchmark](http://semantic-kitti.org/tasks.html#mos), with 75.8% IoU (combine semantics) for moving class and an average inference time of 23ms (on an RTX 3090 GPU). See the [competition website](https://codalab.lisn.upsaclay.fr/competitions/7088).
+We achieve leading performance on [SemanticKITTI-MOS benchmark](http://semantic-kitti.org/tasks.html#mos), with 75.8% IoU (combined semantics) for moving class and an average inference time of 23ms (on an RTX 3090 GPU). See the [competition website](https://codalab.lisn.upsaclay.fr/competitions/7088).
 <p align="center">
         <img src="imgs/leaderboard.png" width="60%"> 
 </p>
