@@ -14,7 +14,7 @@ Bo Zhou* ,Jiapeng Xie* , Yan Pan, Jiajie Wu, and Chuanzhao Lu.
 ## Overview
 MotionBEV is a fast and accurate framework for LiDAR moving object segmentation. We extract spatio-temporal information from consecutive LiDAR scans in bird's eye view domain, and perform multi-modal features fusion with the multi-modality co-attention modules.
 <p align="center">
-        <img src="imgs/overview.png" width="100%"> 
+        <img src="imgs/overview.png" width="90%"> 
 </p>
 <p align="center" style="margin-top: -15px;">
     <span style="color:orange; border-bottom: 1px solid #d9d9d9;
@@ -36,7 +36,7 @@ We achieve leading performance on [SemanticKITTI-MOS benchmark](http://semantic-
 
 
 <p align="center">
-        <img src="imgs/kitti08.gif" width="80%"> 
+        <img src="imgs/kitti08.gif" width="90%"> 
 </p>
 <p align="center" style="margin-top: -15px;">
     <span style="color:orange; border-bottom: 1px solid #d9d9d9;
@@ -47,7 +47,7 @@ We achieve leading performance on [SemanticKITTI-MOS benchmark](http://semantic-
 
 MotionBEV is able to perform LiDAR-MOS with both mechanical LIDAR such as Velody HDL-64, and solid-state LiDAR with small Fov and non-repetitive scanning mode, such as Livox Avia.
 <p align="center">
-        <img src="imgs/livox06.gif" width="80%"> 
+        <img src="imgs/livox06.gif" width="90%"> 
 </p>
 <p align="center" style="margin-top: -15px;">
     <span style="color:orange; border-bottom: 1px solid #d9d9d9;
