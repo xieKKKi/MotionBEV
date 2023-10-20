@@ -1,4 +1,4 @@
-# MotionBEV: Online LiDAR Moving Object segmentation with Birds' eye view based Appearance and Motion Features
+# MotionBEV: Online LiDAR Moving Object segmentation with Birds' eye view based Appearance and Motion Features (RAL'23)
 [[**Paper | ArXiv**]](https://arxiv.org/abs/2305.07336)
 [[**Paper | IEEEXplore**]](https://ieeexplore.ieee.org/document/10287575)
 [[**Video | YouTube**]](https://youtu.be/kOc7gJ72J-g)
@@ -14,7 +14,7 @@ B. Zhou, J. Xie, Y. Pan, J. Wu and C. Lu, "MotionBEV: Attention-Aware Online LiD
 ## Overview
 MotionBEV is a fast and accurate framework for LiDAR moving object segmentation. We extract spatio-temporal information from consecutive LiDAR scans in bird's eye view domain, and perform multi-modal features fusion with the multi-modality co-attention modules.
 <p align="center">
-        <img src="imgs/overview.png" width="90%"> 
+        <img src="imgs/Overview.png" width="90%"> 
 </p>
 <p align="center" style="margin-top: -15px;">
     <span style="color:orange; border-bottom: 1px solid #d9d9d9;
@@ -108,8 +108,8 @@ python auto_gen_polar_sequential_residual_images.py
 Then we obtain motion features with N channels for all scans.
 
 *TODO*  
-- [ ] The motion features in BEV domain are back-projected to 3D space after being generated, and projected to 2D space again when training.
-We'll keep them in 2D space later.
+- [ ] The motion features in BEV domain are back-projected to the 3D space after being generated, and projected to the 2D space again when training. 
+This consumes a lot of time and space. We'll keep them in the 2D space in the future.
 - [ ] CPP implementation for motion features generation.
 
 
@@ -199,7 +199,7 @@ Please cite our paper if this code benefits your research:
 
 ```
 ## Acknowledgment
-We thanks for the opensource codebases, [PolarSeg](https://github.com/edwardzhou130/PolarSeg)
+We thank for the opensource codebases, [PolarSeg](https://github.com/edwardzhou130/PolarSeg)
 , [LiDAR-MOS](https://github.com/PRBonn/LiDAR-MOS)
 , [MotionSeg3D](https://github.com/haomo-ai/MotionSeg3D)
 , [Motion-Guided-Attention](https://github.com/lhaof/Motion-Guided-Attention)
