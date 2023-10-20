@@ -1,0 +1,24 @@
+# General parameters
+# number of frames for training, -1 uses all frames
+num_frames: -1
+num_prev_n: 4
+num_last_n: 4
+
+# Inputs
+# the folder of raw LiDAR scans
+scan_folder: '/home/ubuntu/xjp/data/KITTI/'
+
+# Outputs
+residual_image_folder: '/home/ubuntu/xjp/data/mos/residual-polar-sequential-480-360/'
+
+occlusion_block: True
+
+# image parameters
+polar_image:
+  height: 360
+  width: 480
+  max_range: 60.0
+  min_range: 0.0
+  max_z: 2.0
+  min_z: -4.0
+

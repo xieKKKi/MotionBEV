@@ -1,0 +1,25 @@
+# General parameters
+# number of frames for training, -1 uses all frames
+num_frames: -1
+num_prev_n: 4
+num_last_n: 4
+
+# Inputs
+# the folder of raw LiDAR scans
+scan_folder: '/media/ubuntu/4T/xjp/Livox/sipailou/'
+
+# Outputs
+residual_image_folder: '~/data/Sipailou/mos/residual-sequential-480-64/'
+
+occlusion_block: True
+
+# image parameters
+polar_image:
+  fov_h_half: 0.61  # rad, 70.04° / 2
+  height: 64
+  width: 480
+  max_range: 60.0
+  min_range: 0.0
+  max_z: 1.5
+  min_z: -2.0
+

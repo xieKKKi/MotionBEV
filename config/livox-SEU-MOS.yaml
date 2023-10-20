@@ -1,0 +1,45 @@
+# This file is covered by the LICENSE file in the root of this project.
+labels:
+  0 : "unlabeled"
+  9 : "static"     # for lidar-mos static
+  251: "moving"      # lidar-mos mod moving
+  252: "moving-car"
+color_map: # bgr
+  0 : [0, 0, 0]
+  9 : [255, 255, 255] # for lidar-mos static
+  251: [0, 0, 255]    # lidar-mos moving
+  252: [245, 150, 100]
+content: # as a ratio with the total number of points
+  0: 0.9
+  9: 0.0
+  251: 0.0
+  252: 0.1
+# classes that are indistinguishable from single scan or inconsistent in
+# ground truth are mapped to their closest equivalent
+learning_map:
+  ## re-map the 0 unlabeled and outlier
+  ## because the new seqs only label static/moving 2021-11-02
+  0 : 0     # "unlabeled"       mapped to "static" ---------------------------mapped
+  9 : 0     # "static"          mapped to "static" ---------------------------mapped
+  251: 1    # "moving"              mapped to "moving" ---------------------------mapped
+  252: 1    # "moving-car"          mapped to "moving" ---------------------------mapped
+learning_map_inv: # inverse of previous map
+  0: 9      # "static"
+  1: 251    # "moving"
+
+learning_ignore: # Ignore classes
+  0: False
+  1: False
+
+split: # sequence numbers
+  train:
+    - 1  # 1101
+    - 2  # 4661
+    - 3  # 801
+    - 4  # 271
+    - 5  # 2761
+  valid:
+    - 6  # 4071
+  test:
+    - 0  # 4541 scans
+    - 7
