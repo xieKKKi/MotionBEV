@@ -12,7 +12,7 @@ B. Zhou, J. Xie, Y. Pan, J. Wu and C. Lu, "MotionBEV: Attention-Aware Online LiD
 
 
 ## Overview
-MotionBEV is a fast and accurate framework for LiDAR moving object segmentation. We extract spatio-temporal information from consecutive LiDAR scans in bird's eye view domain, and perform multi-modal features fusion with the multi-modality co-attention modules.
+MotionBEV is a simple yet effective framework for LiDAR moving object segmentation. We extract spatio-temporal information from consecutive LiDAR scans in bird's eye view domain, and perform multi-modal features fusion with the multi-modality co-attention modules.
 <p align="center">
         <img src="imgs/Overview.png" width="90%"> 
 </p>
