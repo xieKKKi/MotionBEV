@@ -7,7 +7,7 @@
 PyTorch implementation for LiDAR moving object segmentation framework **MotionBEV** (RAL'23).
 
 <pre>
-B. Zhou, J. Xie, Y. Pan, J. Wu and C. Lu, "MotionBEV: Attention-Aware Online LiDAR Moving Object Segmentation With Bird's Eye View Based Appearance and Motion Features," in IEEE Robotics and Automation Letters, doi: 10.1109/LRA.2023.3325687.
+B. Zhou, J. Xie, Y. Pan, J. Wu and C. Lu, "MotionBEV: Attention-Aware Online LiDAR Moving Object Segmentation With Bird's Eye View Based Appearance and Motion Features," in IEEE Robotics and Automation Letters, vol. 8, no. 12, pp. 8074-8081, Dec. 2023, doi: 10.1109/LRA.2023.3325687.
 </pre>
 
 
@@ -187,14 +187,14 @@ python utils/visualize_mos.py -d your_path/path_to_KITTI -p your_path/path_to_pr
 ## Citation
 Please cite our paper if this code benefits your research:
 ```
-@ARTICLE{10287575,
+@ARTICLE{motionbev2023,
   author={Zhou, Bo and Xie, Jiapeng and Pan, Yan and Wu, Jiajie and Lu, Chuanzhao},
   journal={IEEE Robotics and Automation Letters}, 
   title={MotionBEV: Attention-Aware Online LiDAR Moving Object Segmentation With Bird's Eye View Based Appearance and Motion Features}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-8},
+  volume={8},
+  number={12},
+  pages={8074-8081},
   doi={10.1109/LRA.2023.3325687}}
 
 ```
