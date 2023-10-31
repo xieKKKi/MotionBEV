@@ -1,4 +1,4 @@
-# MotionBEV: Online LiDAR Moving Object segmentation with Birds' eye view based Appearance and Motion Features (RAL'23)
+# MotionBEV: Online LiDAR Moving Object segmentation with Bird's eye view based Appearance and Motion Features (RAL'23)
 [[**Paper | ArXiv**]](https://arxiv.org/abs/2305.07336)
 [[**Paper | IEEEXplore**]](https://ieeexplore.ieee.org/document/10287575)
 [[**Video | YouTube**]](https://youtu.be/kOc7gJ72J-g)
