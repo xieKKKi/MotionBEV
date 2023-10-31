@@ -49,16 +49,16 @@ MotionBEV is able to perform LiDAR-MOS with both mechanical LIDAR such as Velody
 This code is tested on Ubuntu 18.04 with Python 3.7, CUDA 11.6 and Pytorch 1.13.0.
 
 Install the following dependencies:
-* numpy
-* [pytorch](https://pytorch.org/get-started/previous-versions/)
-* tqdm
-* yaml
-* strictyaml
-* icecream
-* scipy
-* [numba](https://github.com/numba/numba)
-* [torch-scatter](https://github.com/rusty1s/pytorch_scatter)
-* [dropblock](https://github.com/miguelvr/dropblock)
+* numpy==1.21.6
+* [pytorch](https://pytorch.org/get-started/previous-versions/)==1.13.0+cu116
+* tqdm==4.65.0
+* pyyaml==6.0
+* strictyaml==1.7.3
+* icecream==2.1.3
+* scipy==1.7.3
+* [numba](https://github.com/numba/numba)==0.56.4
+* [torch-scatter](https://github.com/rusty1s/pytorch_scatter)==2.1.1+pt113cu116
+* [dropblock](https://github.com/miguelvr/dropblock)==0.3.0
 
 ## Data
 ### SemanticKITTI
